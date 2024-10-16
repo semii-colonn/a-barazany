@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captain X - Professional Trader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <div class="logo">
+                <img src="../imgs/Captain X 2022 copy.png" alt="Captain X Logo">
+            </div>
+            <div class="navigation">
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a class="nav-link" href="broker.html"><i class="fas fa-chart-line"></i> Broker</a>
+                <a class="nav-link" href="complaints.html"><i class="fas fa-comments"></i> Complaints</a>
+                <div class="language-menu">
+                    <button class="language-button" onclick="toggleLanguageDropdown()">
+                        <i class="fas fa-globe"></i> Select Language
+                    </button>
+                    <div class="language-options" id="languageOptions" style="display: none;">
+                        <a href="#" class="language-option" data-lang="en" onclick="changeLanguage('en')">English</a>
+                        <a href="#" class="language-option" data-lang="ar" onclick="changeLanguage('ar')">عربي</a>
+                    </div>
+                </div>
+            </div>
+            <button class="auth-popup-btn" id="authBtn"><i class="fas fa-user"></i> Login to community</button>
+        </nav>
+
+        <main>
+            <div class="main-content fade-in">
+                <h1>Hi, I'm Captain <span class="highlight">X</span></h1>
+                <h2 class="hh2">A Professional Trader In The Financial Market</h2>
+                <p>Discoverer Of The Golden Ratto Equations In The Financial Market And YouTuber Specializes In
+                    Detecting Fraudulent Trading Companies THANKS TO ALLAH</p>
+                <button class="cta-button"><i class="fas fa-rocket"></i> Register Now</button>
+            </div>
+            <div class="main-image slide-in"></div>
+        </main>
+    </div>
+    <section class="statistics">
+        <h2 class="statistics-title">Follow Us</h2>
+        <div class="statistics-container">
+            <div class="stat-box">
+                <h3><i class="fab fa-youtube"></i> YouTube</h3>
+                <span class="counter" data-target="198000">0</span>
+                <p>Subscribers</p>
+            </div>
+            <div class="stat-box">
+                <h3><i class="fab fa-tiktok"></i> TikTok</h3>
+                <span class="counter" data-target="3000">0</span>
+                <p>Followers</p>
+            </div>
+            <div class="stat-box">
+                <h3><i class="fab fa-instagram"></i> Instagram</h3>
+                <span class="counter" data-target="8000">0</span>
+                <p>Followers</p>
+            </div>
+            <div class="stat-box">
+                <h3><i class="fab fa-facebook"></i> Facebook</h3>
+                <span class="counter" data-target="28000">0</span>
+                <p>Likes</p>
+            </div>
+        </div>
+    </section>
+    <section class="subscription-section">
+        <div class="subscription-header fade-in">
+            <h2>Choose Your Trading Journey</h2>
+            <p>Select the plan that best fits your trading goals and experience level. Unlock the power of
+                professional trading with Captain X.</p>
+        </div>
+        <div class="subscription-cards">
+            <div class="subscription-card slide-in">
+                <h3>Basic Plan</h3>
+                <div class="price">$32.9/ mo</div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 30 Day</li>
+                    <li><i class="fas fa-check"></i> Access limeted Video Classes</li>
+                    <li><i class="fas fa-check"></i> Limeted consultations Per Day</li>
+                    <li><i class="fas fa-check"></i> Access limeted Test</li>
+                </ul>
+                <button class="subscribe-btn">Get Started</button>
+            </div>
+            <div class="subscription-card slide-in">
+                <h3>Pro Plan</h3>
+                <div class="price">$588.9/ 6mo</div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 180 Day</li>
+                    <li><i class="fas fa-check"></i> Access unlimeted Video Classes</li>
+                    <li><i class="fas fa-check"></i> Unlimeted consultations Per Day</li>
+                    <li><i class="fas fa-check"></i> Access unlimeted Test</li>
+                </ul>
+                <button class="subscribe-btn">Upgrade to Pro</button>
+            </div>
+            <div class="subscription-card slide-in">
+                <h3>Elite Plan</h3>
+                <div class="price">offer/ 12mo🔥</div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 365 Day</li>
+                    <li><i class="fas fa-check"></i> Access unlimeted and extra Video Classes</li>
+                    <li><i class="fas fa-check"></i> Unlimeted and extra consultations all time</li>
+                    <li><i class="fas fa-check"></i> Access unlimeted Test and tips</li>
+                </ul>
+                <button class="subscribe-btn">Go Elite</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Captain X. All rights reserved.</p>
+        <p>Empowering traders with knowledge and tools to navigate the financial markets successfully.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/Captain7Forex?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.tiktok.com/@captain.x06?_t=8qIR0DQtPK4&_r=1" target="_blank" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://www.instagram.com/captain.x06?igsh=MzJmNW5ueWcwZm5o" target="_blank"
+                aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com/@captain-x?si=ARffLNuI1rI1DhIf" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </footer>
+
+    </div>
+
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+            <span class="close" id="closePopup">&times;</span>
+            <h3>Login</h3>
+            <form id="authForm">
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="text" placeholder="Enter OTP" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="popup-overlay" id="registerPopupOverlay">
+        <div class="popup">
+            <span class="close" id="closeRegisterPopup">&times;</span>
+            <h3>Register</h3>
+            <form id="registerForm">
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <input type="text" placeholder="Account Number" required>
+                <input type="text" placeholder="WhatsApp Number" required>
+                <div class="file-upload">
+                    <label for="passportImage" id="fileLabel">Upload Passport Image</label>
+                    <input type="file" id="passportImage" name="passportImage" accept="image/*" required>
+                </div>
+
+                <!-- Video element to show the camera feed -->
+                <video id="video" width="270" height="190" autoplay></video>
+                <button type="button" id="snapBtn">Take Picture</button>
+                <canvas id="canvas" width="270" height="190" style="display:none;"></canvas>
+                <div style="margin: 10px 0;"></div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function toggleLanguageDropdown() {
+            const options = document.getElementById('languageOptions');
+            options.style.display = options.style.display === 'none' ? 'block' : 'none';
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.language-button')) {
+                const options = document.getElementById('languageOptions');
+                if (options.style.display === 'block') {
+                    options.style.display = 'none';
+                }
+            }
+        };
+
+        const translations = {
+            en: {
+                home: "Home",
+                broker: "Broker",
+                complaints: "Complaints",
+                login: "Login to community",
+                mainTitle: "Hi, I'm Captain",
+                mainSubtitle: "A Professional Trader In The Financial Market",
+                mainText: "Discoverer Of The Golden Ratto Equations In The Financial Market And YouTuber Specializes In Detecting Fraudulent Trading Companies THANKS TO ALLAH",
+                registerBtn: "Register Now",
+                statisticsTitle: "Follow Us",
+                subscribers: "Subscribers",
+                followers: "Followers",
+                likes: "Likes",
+                subscriptionHeader: "Choose Your Trading Journey",
+                subscriptionText: "Select the plan that best fits your trading goals and experience level. Unlock the power of professional trading with Captain X.",
+                basicPlan: "Basic Plan",
+                proPlan: "Pro Plan",
+                elitePlan: "Elite Plan",
+                basicFeatures: ["30 Day", "Access limited Video Classes", "Limited consultations Per Day", "Access limited Test"],
+                proFeatures: ["180 Day", "Access unlimited Video Classes", "Unlimited consultations Per Day", "Access unlimited Test"],
+                eliteFeatures: ["365 Day", "Access unlimited and extra Video Classes", "Unlimited and extra consultations all time", "Access unlimited Test and tips"],
+                basicBtn: "Get Started",
+                proBtn: "Upgrade to Pro",
+                eliteBtn: "Go Elite",
+                footerCopyright: "&copy; 2024 Captain X. All rights reserved.",
+                footerEmpowerment: "Empowering traders with knowledge and tools to navigate the financial markets successfully.",
+                language: "Language"
+            },
+            ar: {
+                home: "الرئيسية",
+                broker: "الوسيط",
+                complaints: "الشكاوي",
+                login: "تسجيل الدخول",
+                mainTitle: "أهلاً، أنا الكابتن",
+                mainSubtitle: "متداول محترف في السوق المالي",
+                mainText: "مكتشف معادلات الفأر الذهبي في السوق المالي ويوتيوبر متخصص في كشف شركات التداول الاحتيالية بفضل الله",
+                registerBtn: "سجل الآن",
+                statisticsTitle: "تابعنا",
+                subscribers: "مشتركين",
+                followers: "متابعين",
+                likes: "إعجابات",
+                subscriptionHeader: "اختر رحلتك في التداول",
+                subscriptionText: "اختر الخطة التي تناسب أهدافك في التداول ومستوى خبرتك. اكتشف قوة التداول الاحترافي مع الكابتن X.",
+                basicPlan: "الخطة الأساسية",
+                proPlan: "الخطة الاحترافية",
+                elitePlan: "الخطة النخبوية",
+                basicFeatures: ["30 يوم", "وصول محدود إلى الفصول الدراسية بالفيديو", "استشارات محدودة في اليوم", "وصول محدود إلى الاختبارات"],
+                proFeatures: ["180 يوم", "وصول غير محدود إلى الفصول الدراسية بالفيديو", "استشارات غير محدودة في اليوم", "وصول غير محدود إلى الاختبارات"],
+                eliteFeatures: ["365 يوم", "وصول غير محدود وإضافي إلى الفصول الدراسية بالفيديو", "استشارات غير محدودة وإضافية طوال الوقت", "وصول غير محدود إلى الاختبارات والنصائح"],
+                basicBtn: "ابدأ الآن",
+                proBtn: "ترقية إلى احترافي",
+                eliteBtn: "احصل على الباقة المميزة",
+                footerCopyright: "&copy; 2024 كابتن X. جميع الحقوق محفوظة.",
+                footerEmpowerment: "تمكين المتداولين بالمعرفة والأدوات للتنقل في الأسواق المالية بنجاح.",
+                language: "اللغة"
+            }
+        };
+
+        // دالة لتغيير اللغة
+        function changeLanguage(lang) {
+            const elementsToTranslate = [
+                { selector: '.nav-link[href="index.html"]', text: translations[lang].home },
+                { selector: '.nav-link[href="broker.html"]', text: translations[lang].broker },
+                { selector: '.nav-link[href="complaints.html"]', text: translations[lang].complaints },
+                { selector: '#authBtn', text: translations[lang].login },
+                { selector: 'h1', text: `${translations[lang].mainTitle} <span class="highlight">X</span>` },
+                { selector: '.hh2', text: translations[lang].mainSubtitle },
+                { selector: '.main-content p', text: translations[lang].mainText },
+                { selector: '.cta-button', text: `<i class="fas fa-rocket"></i> ${translations[lang].registerBtn}` },
+                { selector: '.statistics-title', text: translations[lang].statisticsTitle },
+                { selector: '.subscription-header h2', text: translations[lang].subscriptionHeader },
+                { selector: '.subscription-header p', text: translations[lang].subscriptionText },
+                { selector: 'footer p:first-child', text: translations[lang].footerCopyright },
+                { selector: 'footer p:last-child', text: translations[lang].footerEmpowerment },
+            ];
+
+            elementsToTranslate.forEach(({ selector, text }) => {
+                const element = document.querySelector(selector);
+                if (element) {
+                    element.innerHTML = text;
+                }
+            });
+
+            const statBoxes = document.querySelectorAll('.stat-box h3');
+            if (statBoxes.length >= 4) {
+                statBoxes[0].innerHTML = `<i class="fab fa-youtube"></i> ${translations[lang].subscribers}`;
+                statBoxes[1].innerHTML = `<i class="fab fa-tiktok"></i> ${translations[lang].followers}`;
+                statBoxes[2].innerHTML = `<i class="fab fa-instagram"></i> ${translations[lang].followers}`;
+                statBoxes[3].innerHTML = `<i class="fab fa-facebook"></i> ${translations[lang].likes}`;
+            }
+
+            const subscriptionCards = document.querySelectorAll('.subscription-card');
+            subscriptionCards.forEach((card, index) => {
+                const planTexts = [translations[lang].basicPlan, translations[lang].proPlan, translations[lang].elitePlan];
+                const features = [
+                    translations[lang].basicFeatures,
+                    translations[lang].proFeatures,
+                    translations[lang].eliteFeatures,
+                ];
+
+                card.querySelector('h3').textContent = planTexts[index];
+                const ul = card.querySelector('ul');
+                if (ul) {
+                    ul.innerHTML = features[index].map(feature => `<li><i class="fas fa-check"></i> ${feature}</li>`).join('');
+                }
+                const button = card.querySelector('.subscribe-btn');
+                if (button) {
+                    button.textContent = translations[lang][`${['basicBtn', 'proBtn', 'eliteBtn'][index]}`];
+                }
+            });
+
+            const languageOptions = document.querySelectorAll('.language-option');
+            languageOptions[0].textContent = lang === "en" ? "English" : "إنجليزي";
+            languageOptions[1].textContent = lang === "ar" ? "عربي" : "Arabic";
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const authBtn = document.getElementById('authBtn');
+            const popupOverlay = document.getElementById('popupOverlay');
+            const closePopup = document.getElementById('closePopup');
+            const authForm = document.getElementById('authForm');
+
+            authBtn.addEventListener('click', function () {
+                popupOverlay.style.display = 'block';
+            });
+
+            closePopup.addEventListener('click', function () {
+                popupOverlay.style.display = 'none';
+            });
+
+            popupOverlay.addEventListener('click', function (event) {
+                if (event.target === popupOverlay) {
+                    popupOverlay.style.display = 'none';
+                }
+            });
+
+            authForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+                alert('Form submitted! In a real application, this would connect to a backend.');
+                popupOverlay.style.display = 'none';
+            });
+
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.fade-in, .slide-in');
+                const windowHeight = window.innerHeight;
+
+                elements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    if (elementTop < windowHeight - 100) {
+                        element.classList.add('visible');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', animateOnScroll);
+            animateOnScroll();
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const ctaButton = document.querySelector('.cta-button');
+            const registerPopupOverlay = document.getElementById('registerPopupOverlay');
+            const closeRegisterPopup = document.getElementById('closeRegisterPopup');
+            const registerForm = document.getElementById('registerForm');
+
+            ctaButton.addEventListener('click', function () {
+                registerPopupOverlay.style.display = 'block';
+            });
+
+            closeRegisterPopup.addEventListener('click', function () {
+                registerPopupOverlay.style.display = 'none';
+            });
+
+            registerPopupOverlay.addEventListener('click', function (event) {
+                if (event.target === registerPopupOverlay) {
+                    registerPopupOverlay.style.display = 'none';
+                }
+            });
+
+            registerForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+                alert('Registration submitted! In a real application, this would connect to a backend.');
+                registerPopupOverlay.style.display = 'none';
+            });
+        });
+        document.getElementById('passportImage').addEventListener('change', function () {
+            var fileLabel = document.getElementById('fileLabel');
+            if (this.files.length > 0) {
+                fileLabel.textContent = this.files[0].name; // عرض اسم الملف عند اختياره
+            } else {
+                fileLabel.textContent = 'Upload Passport Image'; // إعادة placeholder إذا لم يتم اختيار ملف
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const video = document.getElementById('video');
+            const snapBtn = document.getElementById('snapBtn');
+            const canvas = document.getElementById('canvas');
+            const registerForm = document.getElementById('registerForm');
+
+            // فتح الكاميرا
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    video.srcObject = stream;
+                })
+                .catch(function (error) {
+                    console.error("Error accessing camera: ", error);
+                });
+
+            // التقاط الصورة عند الضغط على الزر
+            snapBtn.addEventListener('click', function () {
+                const context = canvas.getContext('2d');
+                context.drawImage(video, 0, 0, canvas.width, canvas.height);
+                // يمكنك تحويل الصورة الملتقطة إلى بيانات قاعدة بيانات أو معالجتها كما تريد
+                const dataURL = canvas.toDataURL('image/png');
+                console.log(dataURL); // عرض بيانات الصورة في الكونسول
+            });
+
+            // يمكنك أيضًا إضافة كود لإرسال الصورة الملتقطة عند تسجيل المستخدم
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const counters = document.querySelectorAll('.counter');
+            const statBoxes = document.querySelectorAll('.stat-box');
+            const speed = 200;
+            let started = false;
+
+            const checkVisibility = () => {
+                const rect = document.querySelector('.statistics').getBoundingClientRect();
+                if (rect.top < window.innerHeight && !started) {
+                    started = true;
+                    statBoxes.forEach((box, index) => {
+                        setTimeout(() => {
+                            box.classList.add('visible');
+                        }, index * 200);
+                    });
+
+                    counters.forEach(counter => {
+                        const updateCount = () => {
+                            const target = +counter.getAttribute('data-target');
+                            const count = +counter.innerText;
+
+                            const increment = target / speed;
+
+                            if (count < target) {
+                                counter.innerText = Math.ceil(count + increment);
+                                setTimeout(updateCount, 20);
+                            } else {
+                                counter.innerText = target;
+                            }
+                        };
+
+                        updateCount();
+                    });
+                }
+            };
+
+            window.addEventListener('scroll', checkVisibility);
+            checkVisibility();
+        });
+        let lastScrollTop = 0; // لتخزين موقع التمرير الأخير
+
+        window.addEventListener('scroll', function () {
+            const nav = document.querySelector('nav');
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop; // الحصول على موقع التمرير الحالي
+
+            if (currentScroll > lastScrollTop) {
+                // إذا كان التمرير للأسفل
+                nav.style.top = '-80px'; // قم بإخفاء شريط التنقل
+            } else {
+                // إذا كان التمرير للأعلى
+                nav.style.top = '0'; // أظهر شريط التنقل
+            }
+            lastScrollTop = currentScroll; // تحديث موقع التمرير الأخير
+        });
+    </script>
+</body>
+
+</html>
